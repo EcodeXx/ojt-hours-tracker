@@ -7,8 +7,8 @@
 
 body {
   font-family: 'Roboto', sans-serif;
-  background-color: #f8f9fa; /* Light background for contrast */
-  color: #343a40; /* Dark gray text for readability */
+  background-color: #212121; /* Dark background for high contrast */
+  color: #f8f9fa; /* Light text color for readability */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -17,7 +17,7 @@ body {
 }
 
 .container {
-  background-color: #ffffff; /* White background for the container */
+  background-color: #333; /* Dark container background */
   border-radius: 12px;
   box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Soft shadow for modern effect */
   width: 100%;
@@ -34,14 +34,14 @@ body {
 h1 {
   font-size: 26px;
   font-weight: 600;
-  color: #4CAF50; /* Fresh green for the header */
+  color: #e91e63; /* Pink for the header */
   margin-bottom: 20px;
 }
 
 h2 {
   font-size: 20px;
   font-weight: 500;
-  color: #495057; /* Darker text for subheaders */
+  color: #f8f9fa; /* Light gray text for subheaders */
   margin-top: 20px;
 }
 
@@ -52,19 +52,19 @@ input[type="date"], input[type="number"], button {
   border: 2px solid #ddd; /* Light border for input fields */
   border-radius: 8px;
   font-size: 16px;
-  color: #495057;
-  background-color: #f8f9fa; /* Subtle background for inputs */
+  color: #212121;
+  background-color: #f8f9fa; /* Light background for inputs */
   transition: border-color 0.3s ease, box-shadow 0.3s ease;
 }
 
 input[type="date"]:focus, input[type="number"]:focus, button:focus {
   outline: none;
-  border-color: #4CAF50; /* Green border on focus */
-  box-shadow: 0 0 0 3px rgba(76, 175, 80, 0.2); /* Green shadow for inputs and button */
+  border-color: #e91e63; /* Pink border on focus */
+  box-shadow: 0 0 0 3px rgba(233, 30, 99, 0.2); /* Pink shadow for inputs and button */
 }
 
 button {
-  background-color: #4CAF50; /* Green button for action */
+  background-color: #e91e63; /* Pink button for action */
   color: white;
   border: none;
   font-size: 18px;
@@ -73,20 +73,20 @@ button {
 }
 
 button:hover {
-  background-color: #45a049; /* Darker green on hover */
+  background-color: #d81b60; /* Darker pink on hover */
 }
 
 h3 {
   font-size: 18px;
   font-weight: 500;
-  color: #2c3e50; /* Dark blue-gray for results */
+  color: #f8f9fa; /* Light text for results */
   margin-top: 30px;
 }
 
 #ojtEndDate {
   font-size: 18px;
   font-weight: bold;
-  color: #2c3e50;
+  color: #f8f9fa; /* White for OJT end date */
   margin-top: 10px;
 }
 
@@ -97,38 +97,38 @@ h3 {
 }
 
 #holidayDetails li {
-  background-color: #f1f3f5; /* Light gray for holiday items */
+  background-color: #424242; /* Dark gray background for holiday items */
   padding: 12px;
   border-radius: 8px;
   margin-bottom: 8px;
-  color: #495057;
+  color: #f8f9fa;
   font-size: 16px;
   transition: background-color 0.3s ease;
 }
 
 #holidayDetails li:nth-child(odd) {
-  background-color: #e9f7fb; /* Light blue for odd holiday items */
+  background-color: #616161; /* Lighter gray for odd holiday items */
 }
 
 #holidayDetails li:hover {
-  background-color: #e2e6ea; /* Hover effect for holidays */
+  background-color: #757575; /* Hover effect for holidays */
 }
 
 footer {
   font-size: 14px;
-  color: #6c757d; /* Lighter gray for footer text */
+  color: #b0bec5; /* Lighter gray for footer text */
   margin-top: 30px;
 }
 
 .result-container {
   margin-top: 40px;
   padding: 15px;
-  border-top: 2px solid #4CAF50;
+  border-top: 2px solid #e91e63; /* Pink border */
 }
 
 .result-container p {
   font-size: 18px;
-  color: #34495e;
+  color: #f8f9fa;
 }
 
 .result-container ul {
@@ -137,7 +137,7 @@ footer {
 
 .result-container ul li {
   font-size: 16px;
-  color: #2c3e50;
+  color: #f8f9fa;
 }
 
 /* Mobile First Approach */
