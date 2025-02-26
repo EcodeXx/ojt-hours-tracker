@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>OJT Hours Tracker (Weekdays Only)</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>OJT Hours Tracker (Weekdays Only)</h1>
+
+    <!-- OJT Hours Calculation Section -->
+    <section id="ojtCalculation">
+      <h2>OJT Completion Date (Weekdays Only)</h2>
+      
+      <!-- Input fields for OJT calculation -->
+      <label for="startDate">Start Date:</label>
+      <input type="date" id="startDate" required>
+      
+      <label for="totalHoursRequired">Total Hours Required:</label>
+      <input type="number" id="totalHoursRequired" required>
+
+      <label for="hoursPerDay">Hours Worked Per Day:</label>
+      <input type="number" id="hoursPerDay" required>
+
+      <button id="calculateEndMonth">Calculate End Date</button>
+      <h3 id="ojtEndDate"></h3>
+
+      <!-- Display holidays that overlap -->
+      <h3 id="holidaysList">Holidays during your OJT period:</h3>
+      <ul id="holidayDetails"></ul>
+    </section>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
