@@ -1,0 +1,112 @@
+/* General styles */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #f4f7f6;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 400px;
+  padding: 20px;
+  text-align: center;
+}
+
+h1 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+input[type="date"], input[type="number"], button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #45a049;
+}
+
+h2 {
+  font-size: 20px;
+  margin-top: 20px;
+  color: #333;
+}
+
+#ojtEndDate {
+  font-size: 18px;
+  font-weight: bold;
+  color: #2c3e50;
+  margin-top: 10px;
+}
+
+#holidayDetails {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+#holidayDetails li {
+  background-color: #f0f0f0;
+  margin: 5px 0;
+  padding: 10px;
+  border-radius: 5px;
+  color: #333;
+  font-size: 16px;
+}
+
+#holidayDetails li:nth-child(odd) {
+  background-color: #e9f7fb;
+}
+
+#holidayDetails li span {
+  font-weight: bold;
+}
+
+footer {
+  font-size: 14px;
+  color: #999;
+  margin-top: 30px;
+  text-align: center;
+}
+
+/* Make the result display more centered */
+.result-container {
+  margin-top: 30px;
+  padding: 10px;
+  border-top: 2px solid #4CAF50;
+  font-size: 16px;
+}
+
+.result-container p {
+  font-size: 18px;
+  color: #34495e;
+}
+
+.result-container ul {
+  padding: 0;
+}
+
+.result-container ul li {
+  font-size: 16px;
+  color: #2c3e50;
+}
